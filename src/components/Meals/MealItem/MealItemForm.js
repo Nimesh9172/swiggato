@@ -20,7 +20,7 @@ const [amountIsValid,setAmountIsValid] = useState(false)
       return
     }
 
-    console.log(enteredAmountNumber)
+    // console.log(enteredAmountNumber)
     props.onAddtoCart(enteredAmountNumber)
 
   }

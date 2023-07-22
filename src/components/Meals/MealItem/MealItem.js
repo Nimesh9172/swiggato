@@ -11,15 +11,14 @@ const MealItem = (props) => {
   const price = `₹${props.price.toFixed(2)}`
 
   const addToCartHandler = amount => {
-    console.log(amount)
+    console.log(props.id)
     cartCtx.addItem({
       id:props.id,
       name:props.name,
       amount:amount,
       price:props.price
     })
-    // console.log(10 + + "5")
-    console.log(cartCtx)
+    // console.log(cartCtx)
   }
 
   return (
