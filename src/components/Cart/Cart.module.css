@@ -23,7 +23,7 @@
   font: inherit;
   cursor: pointer;
   background-color: transparent;
-  border: 1px solid crimson;
+  border: 1px solid #FF6666;
   padding: 0.5rem 2rem;
   border-radius: 25px;
   margin-left: 1rem;
@@ -32,15 +32,21 @@
 .actions button:hover,
 .actions button:active {
   background-color: crimson;
-  border-color:crimson;
+  border-color:#FF6666;
   color: white;
+}
+
+.actions .button--alt:hover{
+  background-color: #ffe6dc;
+  color: crimson;
 }
 
 .actions .button--alt {
   color: crimson;
+  border:0;
 }
 
 .actions .button {
-  background-color: crimson;
+  background-color: #FF6666;
   color: white;
 }

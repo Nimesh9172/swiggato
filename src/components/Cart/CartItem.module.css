@@ -9,7 +9,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid crimson;
+  border-bottom: 1px solid #FF6666;
   padding: 10px 0;
   margin: 10px 0;
   width: calc(100% - 2em);
@@ -56,8 +56,8 @@ ul {
   font: inherit;
   font-weight: bold;
   font-size: 1.25rem;
-  color: crimson;
-  border: 1px solid crimson;
+  color: #FF6666;
+  border: 1px solid #FF6666;
   width: 3rem;
   text-align: center;
   border-radius: 6px;
