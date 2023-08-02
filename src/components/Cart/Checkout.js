@@ -34,7 +34,7 @@ const Checkout = (props) => {
     setFormValidity({
       name: enteredNameIsValid,
       street: enteredStreetIsValid,
-      city: enteredStreetIsValid,
+      city:enteredCityIsValid,
       zipcode: enteredZipcodeIsValid,
     });
 
@@ -69,7 +69,7 @@ const Checkout = (props) => {
   const zipcodeControlClasses = `${classes.control} ${!formValidity.zipcode ? classes.invalid : '' }`
   const cityControlClasses = `${classes.control} ${!formValidity.city ? classes.invalid : '' }`
 
-
+  console.log(cityControlClasses,nameControlClasses)
   return (
     <form className={classes.form} onSubmit={confirmHandler}>
       <div className={classes["input-wrapper"]}>
